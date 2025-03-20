@@ -1,0 +1,113 @@
+#foto1{
+    width: 1520px;
+    height: 90px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+nav a{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+
+
+}
+  nav a:active {
+    color: brown;
+
+  }
+
+  nav a:hover{
+    color: cyan;
+  }
+
+  #chat{
+    font-size: 64px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+
+  }
+  #whatsapp{
+    
+    width: 225px;
+    height: 260px;
+  }
+
+  .div1{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ .border{
+    border: 1px;
+    color: #000;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 40px;
+ }
+
+ table{
+    border: 2px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+
+ }
+ th{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+
+ }
+ td{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+    #tr1{
+        background-color:rgb(17, 102, 38) ;
+        color: rgb(0, 0, 0);
+    }
+  
+    #tr2{
+        background-color:antiquewhite ;
+
+    }
+    input:hover{
+        background-color: brown;
+
+    }
+    input:focus{
+         color: coral;
+    }
+    input{
+        height: 35px;
+        width: 160px;
+        border-radius: 3%;
+    }
+    body{
+        background-color: rgb(37, 96, 138);
+    }
