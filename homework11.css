@@ -1,0 +1,106 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 900px;
+    gap: 19px;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 24px;  
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    
+
+}
+
+#p1{
+    position: relative;
+    display: flex;
+    right: 20px;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(28, 28, 102);
+    left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    position: relative;
+    left: 950px;
+    height: 50px;
+    width: 110px;
+    background-color: coral;
+    color: azure;
+}
+
+input:hover{
+    color: blue;
+    background-color: rgb(25, 222, 98);
+}
+
+a:hover{
+    color: brown;
+}
+h1{
+    text-align: center;
+
+}
+p::first-letter{
+    font-size: 50px;
+    color: brown;
+    font-weight: bolder;
+}
+
+p::first-line{
+ color: rgb(29, 14, 170);
+ height: 20px;
+}
+
+#p2:hover ::after{
+    content: "like us?";
+
+    
+}
+
+body{
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg);
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    height: 100px;
+
+}
+
+img:hover{
+  height: 300px;
+  width: 300px;
+
+}
+
+footer{
+  border-color: black solid 1px;
+}
